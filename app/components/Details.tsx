@@ -5,6 +5,7 @@ import {
   AccordionHeader,
   AccordionItem,
 } from "./Accordian";
+import type { Feedback } from "types";
 
 const ScoreBadge = ({ score }: { score: number }) => {
   return (
